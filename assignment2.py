@@ -63,14 +63,14 @@ class Assignment2:
 
 #Task 4 (String Manipulation)
 
-    def modifyString(self, string = ""):
+    def modifyString(self, name = ""):
 
         pos = 0
         help = ""
         result = []
-        myString = string
+        myString = name
 
-        while pos < len(string):
+        while pos < len(name):
 
             if (pos + 1) % 3 == 0 and ord(myString[pos]) >= 97 and ord(myString[pos]) <= 122:
                 result.append(chr(ord(myString[pos]) - 32))
