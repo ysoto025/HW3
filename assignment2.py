@@ -89,7 +89,7 @@ class Assignment2:
 
 #Task 5 (Loop and Conditional statements)
 
-    def isGoodPassword(self, passw = ""):
+    def isGoodPassword(password = ""):
 
         upLet = 0
         lowLet = 0
@@ -100,15 +100,15 @@ class Assignment2:
            return False
         else:
             pos = 0
-            while pos < len(passw):
+            while pos < len(password):
 
-                if(ord(passw[pos]) >= 97 and ord(passw[pos]) <= 122):
+                if(ord(password[pos]) >= 97 and ord(password[pos]) <= 122):
                     lowLet = lowLet + 1
-                elif(ord(passw[pos]) >= 65 and ord(passw[pos]) <= 90):
+                elif(ord(password[pos]) >= 65 and ord(password[pos]) <= 90):
                     upLet = upLet + 1
-                elif passw[pos].isdigit():
+                elif password[pos].isdigit():
                     num = num + 1
-                elif (ord(passw[pos]) == 44 or ord(passw[pos]) == 46 or ord(passw[pos]) == 35 or ord(passw[pos]) == 40):
+                elif (ord(password[pos]) == 44 or ord(password[pos]) == 46 or ord(password[pos]) == 35 or ord(password[pos]) == 40):
                     specLet = specLet + 1
 
                 pos = pos + 1
