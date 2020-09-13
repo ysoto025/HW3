@@ -59,7 +59,7 @@ class Assignment2:
                 result_list.append(list[pos])
             pos = pos + 1
 
-       return result_list
+        return result_list
 
 #Task 4 (String Manipulation)
 
