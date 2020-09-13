@@ -113,11 +113,11 @@ class Assignment2:
 
                 pos = pos + 1
 
-
-            if(upLet == 3 or lowLet > 1) and (specLet > 1 or num > 0):
+            if(upLet > 2 or lowLet > 1) and (specLet > 1 or num > 0):
                 return True
             else:
                 return False
+
 # Task 6 (Socket)
     def connectTcp(self, host = "", port = 0):
 
