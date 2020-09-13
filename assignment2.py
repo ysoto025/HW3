@@ -31,7 +31,7 @@ class Assignment2:
     def sayWelcome(self, name = "User"):
 
         self.name = name
-        print("Welcome to the assignment " + self.name + "Haven't seen you for " + age + " years"))
+        print("Welcome to the assignment, {0}!".format(self.name) + " Haven't seen you for {0}".format(self.age) + " years!")
 
 # Task 3 (List)
 
@@ -136,12 +136,6 @@ class Assignment2:
 
         self.sock.close()
 
-a = Assignment2()
-retval = a.connectTcp("www.google.com", 8)
-if retval:
-    print("Connection established correctly")
-else:
-    print("Some error")
 
 
 
