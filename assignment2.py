@@ -7,11 +7,14 @@ import socket
 import sys
 import argparse
 
+import socket
+import sys
+import argparse
+
 class Assignment2:
 
     age = 0
     name = ""
-    list = []
     modString = ""
     host = ""
 
@@ -28,7 +31,7 @@ class Assignment2:
     def sayWelcome(self, name = "User"):
 
         self.name = name
-        print("Welcome {0}!".format(self.name))
+        print("Welcome to the assignment " + self.name + "Haven't seen you for " + age + " years"))
 
 # Task 3 (List)
 
@@ -56,8 +59,7 @@ class Assignment2:
                 result_list.append(list[pos])
             pos = pos + 1
 
-
-        self.list = result_list
+       return result_list
 
 #Task 4 (String Manipulation)
 
@@ -81,9 +83,9 @@ class Assignment2:
             pos = pos +1
 
         for x in result:
-            help =  help + x
+            help = help + x
 
-        self.modSrting = help
+        return help
 
 #Task 5 (Loop and Conditional statements)
 
@@ -140,6 +142,7 @@ if retval:
     print("Connection established correctly")
 else:
     print("Some error")
+
 
 
 
