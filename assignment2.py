@@ -96,7 +96,7 @@ class Assignment2:
         specLet = 0
         num =  0
 
-        if len(passw) < 9:
+        if len(password) < 9:
            return False
         else:
             pos = 0
