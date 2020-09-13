@@ -31,7 +31,7 @@ class Assignment2:
     def sayWelcome(self, name = "User"):
 
         self.name = name
-        print("Welcome to the assignment, {0}!  ".format(self.name) + "Haven't seen you for {0}".format(self.age) + " years!")
+        print("Welcome to the assignment, {0}!".format(self.name) + "Haven't seen you for {0}".format(self.age) + " years!")
 
 # Task 3 (List)
 
