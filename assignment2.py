@@ -113,9 +113,9 @@ class Assignment2:
 
                 pos = pos + 1
 
-            print(lowLet, upLet, specLet, num)
+
             if(upLet == 3 or lowLet > 1) and (specLet > 1 or num > 0):
-               return True
+                return True
             else:
                 return False
 # Task 6 (Socket)
